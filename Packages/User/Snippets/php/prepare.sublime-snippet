@@ -1,0 +1,13 @@
+<snippet>
+
+<content><![CDATA[
+\$${1:sql} = "${3:req}";
+\$${2:sth} = \$db -> prepare(\$${1:sql});
+\$${2:sth} -> execute(array(${0:marks}));
+
+]]></content>
+
+<tabTrigger>prep</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

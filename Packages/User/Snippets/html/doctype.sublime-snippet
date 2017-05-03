@@ -1,0 +1,35 @@
+<snippet>
+
+<content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>$1</title>
+	<meta name="description" content="$2"/>
+	<link rel="icon" ${3:type="image/png" }href="${4:favicon.png}"/>
+	<!-- build:css -->
+	<link rel="stylesheet" href="css/${5:app}.css"/>
+	<!-- endbuild -->
+	<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+
+
+	${0:Hello World !}
+
+
+	<!-- build:js -->${6:
+	<script src="js/${7:jquery.min}.js"></script>}${8:
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>}
+	<script src="js/${9:app}.js"></script>
+	<!-- endbuild -->
+
+</body>
+</html>
+]]></content>
+
+<tabTrigger>doctype</tabTrigger>
+
+</snippet>

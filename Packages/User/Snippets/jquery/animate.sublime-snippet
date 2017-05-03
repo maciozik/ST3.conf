@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+animate({ ${2:property}: '${0:value}' }, ${1:500});
+]]></content>
+
+<tabTrigger>animate</tabTrigger>
+<scope>source.js</scope>
+
+</snippet>

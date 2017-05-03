@@ -1,0 +1,13 @@
+<snippet>
+
+<content><![CDATA[
+.css({
+	${1:property}: '${2:value}',
+	${3:property}: '${4:value}'$0
+});
+]]></content>
+
+<tabTrigger>.csso</tabTrigger>
+<scope>source.js</scope>
+
+</snippet>

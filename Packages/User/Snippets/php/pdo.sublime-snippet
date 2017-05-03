@@ -1,0 +1,19 @@
+<snippet>
+
+<content><![CDATA[
+try {
+	\$db = new PDO('mysql:host=${1:127.0.0.1};dbname=${2:dbname}', '${3:user}', '${4:psw}');
+}
+catch(Exception \$e) {
+	die(\$e -> getMessage());
+}
+
+\$db -> query("SET NAMES '${5:utf8}'");
+
+$0
+]]></content>
+
+<tabTrigger>pdo</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

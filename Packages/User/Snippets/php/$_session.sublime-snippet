@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+\$_SESSION['$0']
+]]></content>
+
+<tabTrigger>session</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

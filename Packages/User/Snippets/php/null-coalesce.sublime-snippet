@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+${1:var} ?? ${2:ifExistsAndNotNull};$0
+]]></content>
+
+<tabTrigger>nc</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

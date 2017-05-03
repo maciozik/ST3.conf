@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Jonathan Macioszczyk</string>
+	<key>name</key>
+	<string>Color Forest</string>
+	<key>settings</key>
+	<array>
+
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2F2D2B</string>
+				<key>caret</key>
+				<string>#FFFF88</string>
+				<key>foreground</key>
+				<string>#FAFAFA</string>
+				<key>invisibles</key>
+				<string>#FFFFFF40</string>
+				<key>lineHighlight</key>
+				<string>#FFFFEE0B</string>
+				<key>selection</key>
+				<string>#C5B19920</string>
+				<key>guide</key>
+				<string>#444444</string>
+				<key>activeGuide</key>
+				<string>#FFFFFF</string>
+				<key>stackGuide</key>
+				<string>#888888</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#6F6F6F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5C98CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Functions Name (language)</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A6FF67</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Functions Name (user)</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#1AFA85</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Functions Arguments</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDF70F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Classes</string>
+			<key>scope</key>
+			<string>source support</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1BE5BF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F97262</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constants</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF8A4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keywords (generic)</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FDC889</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keywords (storage)</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FDC889</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Tags Name (all)</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5C98FB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Tags Name (inline)</string>
+			<key>scope</key>
+			<string>meta.tag.inline entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5C98FB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Tags (all)</string>
+			<key>scope</key>
+			<string>meta.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBDDFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Tags (inline)</string>
+			<key>scope</key>
+			<string>meta.tag.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBDDFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Attributes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F5F55D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Generic Selectors</string>
+			<key>scope</key>
+			<string>declaration.tag, declaration.tag entity, declaration.tag.inline, declaration.tag.inline entity, source.css entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1ABA9A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Properties Name</string>
+			<key>scope</key>
+			<string>support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5CA1D1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Properties Value</string>
+			<key>scope</key>
+			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F87878</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Constant Values</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F87878</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Id Selectors</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#50F555</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class Selectors</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#35FA95</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pseudo-Classes</string>
+			<key>scope</key>
+			<string>source.css entity.other.attribute-name, source.less entity.other.attribute-name, source.scss entity.other.attribute-name, source.sass entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F5F55D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Numbers</string>
+			<key>scope</key>
+			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF8A4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less Mixins</string>
+			<key>scope</key>
+			<string>entity.other.less.mixin, entity.other.scss.mixin, entity.other.sass.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3CDFFB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Less Variables</string>
+			<key>scope</key>
+			<string>source.less variable, source.scss variable, source.sass variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDC889</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DOM</string>
+			<key>scope</key>
+			<string>source.js support</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1BD5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Internal Selection</string>
+			<key>scope</key>
+			<string>variable.language.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1BD5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Strings</string>
+			<key>scope</key>
+			<string>source.js string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F97262</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Objects Parameters</string>
+			<key>scope</key>
+			<string>support.constant.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#A6FF67</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalids</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF5050</string>
+			</dict>
+		</dict>
+
+	</array>
+	<key>uuid</key>
+	<string>E8CA9139-6C6A-4E7C-8300-ECF7CE045785</string>
+</dict>
+</plist>

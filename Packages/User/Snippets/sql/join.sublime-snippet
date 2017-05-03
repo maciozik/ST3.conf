@@ -1,0 +1,9 @@
+<snippet>
+
+<content><![CDATA[
+JOIN ${1:table2} ON ${2:table1}.${3:field} = ${1:table2}.${3:field} $0
+]]></content>
+
+<tabTrigger>join</tabTrigger>
+
+</snippet>

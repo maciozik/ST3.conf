@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+setcookie('${1:name}', ${2:value}, time() + ${3:time}, '${4:/}', null, false, ${5:true});
+]]></content>
+
+<tabTrigger>setcookie</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

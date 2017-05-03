@@ -1,0 +1,13 @@
+<snippet>
+
+<content><![CDATA[
+<?php
+
+	$0
+
+?>
+]]></content>
+
+<tabTrigger>php</tabTrigger>
+
+</snippet>

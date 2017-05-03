@@ -1,0 +1,162 @@
+[
+
+	/* - - - - - - - -  */
+	/* Files Management */
+	/* - - - - - - - -  */
+
+	{ "keys": ["ctrl+alt+n"], "command": "new_window" },
+	{ "keys": ["ctrl+q"], "command": "save_all" },
+	{ "keys": ["ctrl+w"], "command": "close_file" },
+	{ "keys": ["ctrl+alt+w"], "command": "close_window" },
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+
+	// Advanced New File
+	{ "keys": ["ctrl+shift+n"], "command": "advanced_new_file_new"},
+
+	// Create Temp Backup
+	{ "keys": ["ctrl+alt+s"], "command": "backups_helper" },
+
+	/* - - - - - - - - */
+	/* Panels Overlays */
+	/* - - - - - - - - */
+
+	// Command Palette
+	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {
+		"overlay": "command_palette"
+	}},
+
+	// Fuzzy-opening
+	{ "keys": ["ctrl+shift+o"], "command": "show_overlay", "args": {
+		"overlay": "goto", "show_files": true
+	}},
+
+	// Fix
+	// { "keys": ["tab"], "command": "hide_overlay", "context": [
+	// 	{ "key": "overlay_visible", "operator": "equal", "operand": true }
+	// ]},
+
+	/* - - - - - - - */
+	/* Goto Anything */
+	/* - - - - - - - */
+
+	// Goto Reference
+	{ "keys": ["ctrl+alt+r"], "command": "show_overlay", "args": {
+		"overlay": "goto", "text": "@"
+	}},
+
+	// Goto Line
+	{ "keys": ["ctrl+alt+l"], "command": "show_overlay", "args": {
+		"overlay": "goto", "text": ":"
+	}},
+
+	/* - - - - - - - */
+	/* OOP Commands  */
+	/* - - - - - - - */
+
+	// Goto definition
+	{ "keys": ["f1"], "command": "goto_definition" },
+
+	// Find and import a "use" statement
+	{ "keys": ["shift+f1"], "command": "find_use" },
+
+	// Implement the methods of a class or an interface
+	{ "keys": ["ctrl+f1"], "command": "implement" },
+
+	// Expand a class call to its complete namespace
+	{ "keys": ["alt+f1"], "command": "expand_fqcn" },
+
+	/* - - - - - - - - - */
+	/* Find and Replace  */
+	/* - - - - - - - - - */
+
+	{ "keys": ["ctrl+r"], "command": "find_all_under" },
+
+	{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
+
+	{ "keys": ["alt+r"], "command": "find_under_expand" },
+
+	{ "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {
+		"panel": "replace"
+	}},
+
+	{ "keys": ["ctrl+alt+f"], "command": "show_panel", "args": {
+		"panel": "find_in_files"
+	}},
+
+	/* - - - - - - - - - */
+	/* Edit and Complete */
+	/* - - - - - - - - - */
+
+	// Swap lines
+	{ "keys": ["ctrl+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+down"], "command": "swap_line_down" },
+
+	// Completion with Enter
+	{ "keys": ["enter"], "command": "commit_completion", "context": [
+		{ "key": "auto_complete_visible" },
+		{ "key": "setting.auto_complete_commit_on_tab", "operand": true }
+	]},
+
+	// Close open HTML Tag
+	{ "keys": ["ctrl+enter"], "command": "close_tag" },
+
+	/* - - - - - - - */
+	/* Open Explorer */
+	/* - - - - - - - */
+
+	// Browse Packages
+	{ "keys": ["ctrl+shift+p"], "command": "open_dir", "args": {
+		"dir": "$packages"
+	}},
+
+	// Open /www
+	{ "keys": ["ctrl+shift+w"], "command": "open_dir", "args": {
+		"dir": "D:/wamp/www/"
+	}},
+
+	// Open Containing Folder
+	{ "keys": ["ctrl+shift+x"], "command": "open_dir", "args": {
+		"dir": "$file_path"
+	}},
+
+	/* - - - - - - - */
+	/* Open Terminal */
+	/* - - - - - - - */
+
+	{ "keys": ["ctrl+shift+c"], "command": "open_terminal" },
+
+	/* - - - - -  */
+	/* CSS Colors */
+	/* - - - - -  */
+
+	// Color Picker
+	{ "keys": ["f5"], "command": "color_picker", "context": [
+		{ "key": "color_highlighter.color_picker" }
+	]},
+
+	// Color Converter
+	{ "keys": ["shift+f5"], "command": "color_convert", "context": [
+		{ "key": "color_highlighter.color_convert" }
+	]},
+
+	/* - - - - - - - - - - -  */
+	/* Search and Find on Doc */
+	/* - - - - - - - - - - -  */
+
+	// Zeal
+	{ "keys": ["f2"], "command": "zeal_search_selection" },
+
+	// Can I Use
+	{ "keys": ["shift+f2"], "command": "use_it" },
+
+	// Google
+	// See OpenBrowser Plugin: https://github.com/Grafikart/Open-Browser-SublimeText2-Plugin
+	{ "keys": ["ctrl+shift+g"], "command": "open_browser", "args": {
+		"url": "http://www.google.fr/#q=%s"
+	}}
+
+	// SFTP
+	// { "keys": ["ctrl+shift+u"], "command": "sftp_upload_file" },
+	// { "keys": ["ctrl+alt+u"], "command": "sftp_upload_open_files" },
+
+]

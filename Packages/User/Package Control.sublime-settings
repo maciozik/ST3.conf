@@ -1,0 +1,44 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Can I Use",
+		"Color Highlighter",
+		"ColorSchemeEditor",
+		"DocBlockr",
+		"Emmet",
+		"GitGutter",
+		"Inc-Dec-Value",
+		"Jade",
+		"jQuery",
+		"Language - French - Français",
+		"LiveReload",
+		"Material Color Scheme",
+		"Material Theme",
+		"Nettuts+ Fetch",
+		"One Dark Material - Theme",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"PHP Companion",
+		"PHP-Twig",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"Terminal",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
+		"WordHighlight",
+		"Zeal"
+	],
+	"repositories":
+	[
+	]
+}

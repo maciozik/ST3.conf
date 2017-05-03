@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+header('Location:../${0:page}.php');
+]]></content>
+
+<tabTrigger>headloc</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

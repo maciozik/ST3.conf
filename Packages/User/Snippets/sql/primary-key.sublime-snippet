@@ -1,0 +1,9 @@
+<snippet>
+
+<content><![CDATA[
+PRIMARY KEY $0
+]]></content>
+
+<tabTrigger>pk</tabTrigger>
+
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+
+<content><![CDATA[
+UPDATE ${1:table} SET ${2:field} = ${3:new_value}$0
+]]></content>
+
+<tabTrigger>update</tabTrigger>
+
+</snippet>

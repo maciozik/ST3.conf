@@ -1,0 +1,10 @@
+<snippet>
+
+<content>
+isset($0)
+</content>
+
+<tabTrigger>is</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

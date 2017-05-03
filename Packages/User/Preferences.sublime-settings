@@ -1,0 +1,25 @@
+{
+	"atomic_save": false,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 100,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"detect_slow_plugins": false,
+	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
+	"font_size": 10,
+	"highlight_line": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"material_theme_disable_folder_animation": true,
+	"mouse_wheel_switches_tabs": true,
+	"save_on_focus_lost": false,
+	"soda_folder_icons": true,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?(->)",
+	"word_wrap": false
+}

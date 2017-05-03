@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Zeal: Search Selection",
+        "command": "zeal_search_selection",
+    },
+    {
+        "caption": "Zeal: Search",
+        "command": "zeal_search"
+    }
+]

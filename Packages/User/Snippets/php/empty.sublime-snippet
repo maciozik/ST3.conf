@@ -1,0 +1,10 @@
+<snippet>
+
+<content>
+empty(${0:var})
+</content>
+
+<tabTrigger>empty</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

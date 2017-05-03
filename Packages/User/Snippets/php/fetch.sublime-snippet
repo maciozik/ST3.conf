@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+\$${1:data} = \$${2:sth} -> fetch(${3:\$db->FETCH_${4:ASSOC|NUM|BOTH|OBJ}})$0
+]]></content>
+
+<tabTrigger>fetch</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

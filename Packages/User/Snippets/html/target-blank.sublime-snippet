@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+target="_blank"
+]]></content>
+
+<tabTrigger>blank</tabTrigger>
+<scope>source.html</scope>
+
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+
+<content><![CDATA[
+focus(function(){
+	$0
+});
+]]></content>
+
+<tabTrigger>focus</tabTrigger>
+<scope>source.js</scope>
+
+</snippet>

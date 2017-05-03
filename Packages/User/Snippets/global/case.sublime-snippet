@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+case '${1:value}':
+	$2
+	break;$0
+]]></content>
+    <tabTrigger>case</tabTrigger>
+</snippet>

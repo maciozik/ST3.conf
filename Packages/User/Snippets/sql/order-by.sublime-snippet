@@ -1,0 +1,9 @@
+<snippet>
+
+<content><![CDATA[
+ORDER BY $0
+]]></content>
+
+<tabTrigger>ob</tabTrigger>
+
+</snippet>

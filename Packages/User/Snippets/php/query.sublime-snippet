@@ -1,0 +1,12 @@
+<snippet>
+
+<content><![CDATA[
+\$${1:sql} = "${0:req}";
+\$${2:sth} = \$db -> query(\$${1:sql});
+
+]]></content>
+
+<tabTrigger>query</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

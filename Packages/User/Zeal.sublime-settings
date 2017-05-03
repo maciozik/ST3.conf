@@ -1,0 +1,26 @@
+{
+  /**
+   *  Zeal executable path.
+   *  For Linux: /usr/bin/zeal
+   *  For Windows: c:\\Program Files\\Zeal\\zeal.exe
+   */
+  "zeal_command": "D:\\Program Files\\Zeal\\zeal.exe",
+
+  /**
+   *  Sort mapping results.
+   */
+  "mapping_sort" : true,
+
+  /**
+   * Language mapping.
+   */
+  "language_mapping": {
+    "HTML": {"lang": "html", "zeal_lang": "html"},
+    "CSS": {"lang": "css", "zeal_lang": "css"},
+    "Less": {"lang": "less", "zeal_lang": "less"},
+    "JavaScript": {"lang": "javascript", "zeal_lang": "javascript"},
+    "jQuery": {"lang": "jquery", "zeal_lang": "jquery"},
+    "PHP": {"lang": "php", "zeal_lang": "php"},
+    "MySQL": {"lang": "sql", "zeal_lang": "sql"}
+  }
+}

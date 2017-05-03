@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+\$_REQUEST['$0']
+]]></content>
+
+<tabTrigger>request</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

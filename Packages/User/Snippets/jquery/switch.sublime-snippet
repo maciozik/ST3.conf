@@ -1,0 +1,18 @@
+<snippet>
+
+<content><![CDATA[
+switch(${1:var}) {
+	case '${2:value}':
+		$3
+		break;
+	$0
+	default:
+		$4
+		break;
+}
+]]></content>
+
+<tabTrigger>switch</tabTrigger>
+<scope>source.js</scope>
+
+</snippet>

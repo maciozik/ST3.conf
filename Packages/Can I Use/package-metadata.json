@@ -1,0 +1,1 @@
+{"description": "Is a plugin for sublime text 2/3 for checking CSS property support", "url": "http://azd325.github.io/sublime-text-caniuse/", "platforms": ["*"], "version": "2016.03.03.18.21.48", "sublime_text": "*", "dependencies": []}

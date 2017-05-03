@@ -1,0 +1,14 @@
+<snippet>
+
+<content><![CDATA[
+jQuery(function(\$){
+
+$0
+
+});
+]]></content>
+
+<tabTrigger>esc</tabTrigger>
+<scope>source.js</scope>
+
+</snippet>

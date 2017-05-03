@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+\$_FILES['$0']
+]]></content>
+
+<tabTrigger>files</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+\$_COOKIE['$0']
+]]></content>
+
+<tabTrigger>cookie</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

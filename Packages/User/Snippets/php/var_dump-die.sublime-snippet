@@ -1,0 +1,10 @@
+<snippet>
+
+<content><![CDATA[
+var_dump($1); die();$0
+]]></content>
+
+<tabTrigger>vardie</tabTrigger>
+<scope>source.php</scope>
+
+</snippet>

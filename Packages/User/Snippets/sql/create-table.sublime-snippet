@@ -1,0 +1,11 @@
+<snippet>
+
+<content><![CDATA[
+CREATE TABLE ${1:tableName} (
+	$0
+) CHARACTER SET utf8 ENGINE=InnoDB;
+]]></content>
+
+<tabTrigger>ct</tabTrigger>
+
+</snippet>
